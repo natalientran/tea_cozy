@@ -1,0 +1,16 @@
+/* Universal Style */
+
+body {
+  background-color: black;
+}
+
+/* Header */
+
+header {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+
+}
