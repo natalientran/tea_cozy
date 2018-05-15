@@ -2,8 +2,22 @@
 
 body {
   background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
 }
 
+a {
+  color: seashell;
+}
+
+nav span {
+  display: inline-block;
+  text-align: center;
+  padding: 20px 10px;
+}
 /* Header */
 
 header {
