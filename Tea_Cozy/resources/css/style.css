@@ -78,3 +78,10 @@ header nav {
   align-content: center;
 
 }
+.tea-top {
+  display: inline-block;
+}
+.tea-image {
+  height: 200px;
+  width: 300px;
+}
