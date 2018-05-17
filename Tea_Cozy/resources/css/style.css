@@ -7,6 +7,7 @@ body {
   color: seashell;
   opacity: 0.9;
   text-align: center;
+
 }
 
 a {
@@ -15,6 +16,7 @@ a {
 
 nav span {
   display: inline-flex;
+  flex-wrap: wrap;
   text-align: center;
   padding: 20px 10px;
 }
@@ -23,10 +25,13 @@ nav span {
 header {
   display: flex;
   position: fixed;
+  z-index: 1;
   flex-wrap: wrap;
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
+  background-color: black;
+  top: 0;
 }
 
 .logo {
@@ -42,5 +47,14 @@ header {
 
 header nav {
   padding-right: 10px;
+}
 
+/* Our Mission */
+
+.mission {
+    height: 700px;
+    width: 1200px;
+    align-content: center;
+    margin: auto;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
 }
