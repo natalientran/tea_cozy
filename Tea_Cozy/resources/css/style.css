@@ -8,7 +8,10 @@ body {
   opacity: 0.9;
   text-align: center;
 
+
 }
+
+
 
 a {
   color: seashell;
@@ -49,6 +52,17 @@ header nav {
   padding-right: 10px;
 }
 
+/* Container */
+
+.container {
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+}
+
 /* Our Mission */
 
 .mission {
@@ -74,14 +88,37 @@ header nav {
 /* Tea of the Month */
 
 .tea-month {
+  display: flex;
+  flex-direction: column;
+  transform: translate (-50%, -50%)
+  text-align: center;
+  border: 2px solid white;
+}
+.tea-content {
+  transform: translate (-50%, -50%)
   width: 1000px;
-  align-content: center;
+}
 
+.tea-type {
+  display: flex;
+  flex-direction: column;
 }
 .tea-top {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid white;
+  align-items: center;
 }
 .tea-image {
   height: 200px;
   width: 300px;
+}
+
+.berry-blitz {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg);
+  background-size: contain;
+}
+
+.tea-text {
+  margin: 10px;
 }
